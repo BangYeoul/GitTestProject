@@ -14,8 +14,8 @@ public class BubbleSort {
 			a[i]=(int)(Math.random()*10)+1;
 		}
 		
-		System.out.println("startWith \n: "+a);
-		 
+		System.out.println("startWith : "+a);
+		 										//시작 값 
 		
 		while(true) {
 			for(int q=0;q<a.length-1;q++) {
@@ -27,7 +27,7 @@ public class BubbleSort {
 		
 		if(j==a.length-1) 
 		{}
-		
+												// 비교 알고리즘 
 		
 		j++;
 		}
