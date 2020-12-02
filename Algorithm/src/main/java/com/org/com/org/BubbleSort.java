@@ -5,9 +5,35 @@ import java.util.Scanner;
 public class BubbleSort {
 	
 	public static void main(String[]args) {
-		String userINPUT;
-		Scanner sc=new Scanner(System.in);
-		 userINPUT=sc.nextLine();
+		int a[]=new int [5];
+		int j=0;
+		
+		int max=a[1];
+		int min=a[0];
+		for(int i=0;i<a.length;i++) {
+			a[i]=(int)(Math.random()*10)+1;
+		}
+		
+		System.out.println("startWith \n: "+a);
+		 
+		
+		while(true) {
+			for(int q=0;q<a.length-1;q++) {
+				if(max<min) {
+					a[q]=max;
+					a[q+1]=min;
+				}
+		}
+		
+		if(j==a.length-1) 
+		{}
+		
+		
+		j++;
+		}
+		
+		
+		
 	}
 }
 
